@@ -17,9 +17,13 @@
 3. Далее введите желаемую операцию (`+`, `-`, `*` или `/`).
 4. Программа выведет результат вычислений.
 
-Пример ввода:
+## Пример ввода:
 Write 2 numbers (double) in the folowing format: {number1} <space> {number2}
+
 10 5
+
 Choose operation: +, -, *, /
-+
+
+$+$
+
 Operation result: 15
