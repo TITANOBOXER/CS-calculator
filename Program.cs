@@ -20,8 +20,17 @@ while (true)
     continue;
   }
 
-  double a = double.Parse(parts[0]);
-  double b = double.Parse(parts[1]);
+  if (!double.TryParse(parts[0], out double a))
+  {
+    Console.WriteLine($"Error: '{parts[0]}' is not a valid number");
+    continue;
+  }
+  
+  if (!double.TryParse(parts[1], out double b))
+  {
+    Console.WriteLine($"Error: '{parts[1]}' is not a valid number");
+    continue;
+  }
 
   double result = 0;
   
